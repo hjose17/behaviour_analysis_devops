@@ -1,0 +1,42 @@
+model:
+  best_params:
+    max_depth: 7
+    min_samples_leaf: 10
+    min_samples_split: 30
+    n_estimators: 100
+  best_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAAAA8D8=
+  max_depth: 7
+  min_samples_leaf: 10
+  min_samples_split: 30
+  n_estimators: 100
+pca:
+  explained_variance_ratio:
+  - 0.682066192516363
+  - 0.14244208499533398
+  - 0.05146934963675368
+  - 0.03565646903854621
+  - 0.027092887339803983
+  - 0.025701898282880373
+  - 0.010568609378068267
+  - 0.007294070380090148
+  - 0.006901830167153462
+  - 0.005712146061342299
+  - 0.0050944622036644795
+  - 0.0
+  n_components: 5
