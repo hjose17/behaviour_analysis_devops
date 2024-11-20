@@ -1,0 +1,18 @@
+# Required libraries for machine learning and data processing
+
+scikit-learn==1.3.0          # For training the machine learning model
+pandas==2.1.0                # For data manipulation
+numpy==1.23.5                # For numerical operations
+yaml==6.0                    # For configuration management (config.yaml)
+pickle5==0.0.11              # For saving the trained model (pickle)
+
+# Optional libraries for deployment and testing
+
+pytest==7.0.1                # For running unit tests
+flask==2.3.2                 # For building a simple API (if needed for deployment)
+gunicorn==20.1.0             # WSGI HTTP server for running Flask in production
+docker==6.0.1                # For Docker support in Python (if needed for integration)
+
+# For handling data and working with Docker/AWS
+boto3==1.26.12               # AWS SDK for Python (for deploying to AWS EC2)
+requests==2.31.0             # For making HTTP requests (optional)
