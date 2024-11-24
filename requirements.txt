@@ -7,7 +7,7 @@ PyYAML==6.0                    # For configuration management (config.yaml)
 matplotlib
 seaborn
 statsmodels
-sys
+
 #pickle5==0.0.11              # For saving the trained model (pickle)
 
 # Optional libraries for deployment and testing
