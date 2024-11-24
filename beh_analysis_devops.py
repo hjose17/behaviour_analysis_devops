@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Install dependencies
-!pip install scikit-learn pyyaml
+#!pip install scikit-learn pyyaml
 
 # Import libraries
 import yaml
