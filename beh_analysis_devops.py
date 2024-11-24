@@ -239,39 +239,39 @@ with open('config.yaml', 'w') as f:
 # Print confirmation
 print("Model and configuration saved successfully!")
 
-!git clone https://github.com/hjose17/behaviour_analysis_devops.git
+#!git clone https://github.com/hjose17/behaviour_analysis_devops.git
 
 # Commented out IPython magic to ensure Python compatibility.
 # %cd behaviour_analysis_devops/
 
-!mv /content/model.pkl /content/behaviour_analysis_devops/
+#!mv /content/model.pkl /content/behaviour_analysis_devops/
 
-!mv /content/config.yaml /content/behaviour_analysis_devops/
+#!mv /content/config.yaml /content/behaviour_analysis_devops/
 
-!git add .
+#!git add .
 
-!git config --global user.email "hancyjose97@gmail.com"
+#!git config --global user.email "hancyjose97@gmail.com"
 
-!git config --global user.name "hjose17"
+#!git config --global user.name "hjose17"
 
-!git branch
+#!git branch
 
-!git branch -M main
+#!git branch -M main
 
-!git push -u origin main
+#!git push -u origin main
 
-!git init
+#!git init
 
-!git remote add origin https://github.com/hjose17/behaviour_analysis_devops.git
+#!git remote add origin https://github.com/hjose17/behaviour_analysis_devops.git
 
-!git add .
+#!git add .
 
-!git commit -m "Initial commit"
+#!git commit -m "Initial commit"
 
-!git branch -M main
-!git push -u origin main
+#!git branch -M main
+#!git push -u origin main
 
-!git remote set-url origin https://hjose17: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@github.com/hjose17/behaviour_analysis_devops.git
+#!git remote set-url origin https://hjose17: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@github.com/hjose17/behaviour_analysis_devops.git
 
-!git push -u origin main
+#!git push -u origin main
 
