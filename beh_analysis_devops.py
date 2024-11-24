@@ -13,6 +13,7 @@ Original file is located at
 # Import libraries
 import yaml
 import pickle
+import sys
 
 import pandas as pd
 import numpy as np
@@ -22,7 +23,13 @@ import seaborn as sns
 
 import statsmodels.api as sm
 
-df = pd.read_csv("/content/user_behavior_dataset.csv")
+csv_path = sys.argv[1]
+
+# Load the CSV file
+df = pd.read_csv(csv_path)
+print(df.head())
+
+#df = pd.read_csv("/content/user_behavior_dataset.csv")
 
 plt.style.use("ggplot")
 
