@@ -5,6 +5,8 @@ pandas==2.1.0                # For data manipulation
 numpy==1.23.5                # For numerical operations
 PyYAML==6.0                    # For configuration management (config.yaml)
 matplotlib
+seaborn
+statsmodels
 #pickle5==0.0.11              # For saving the trained model (pickle)
 
 # Optional libraries for deployment and testing
